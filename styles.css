@@ -1,0 +1,206 @@
+html { 
+  background: url(https://thumbs.dreamstime.com/b/pizza-seamless-pattern-hand-drawn-sketch-pizza-doodles-food-background-flour-other-food-ingredients-oven-kitchen-107766154.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 0px;
+}
+
+.navContainer {
+  display: flex;
+}
+
+.navBackground {
+  background: #4494C1;
+}
+
+.nav {
+  list-style: none;
+}
+
+.flexItem {
+  flex: 1;
+}
+
+.flexStart {
+  justify-content: flex-start;
+  font-size: 5em;
+  color: whitesmoke;
+  letter-spacing: 0.4em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+
+.theSlice {
+  font-family: 'Londrina Outline', cursive;
+}
+
+.nav a {
+  text-decoration: none;
+  display: block;
+  padding: 0 1em;
+  color:  #4E4F4B;
+  font-family: 'McLaren', cursive;
+  letter-spacing: 0em;
+  font-size: 2em;
+  padding-right: 50px;
+}
+
+.flexEnd {
+  justify-content: flex-end;
+  align-self: center;
+}
+
+a:hover {
+  color: #4494C1;
+  background-color: #4E4F4B;
+}
+
+.column {  
+  margin: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #4E4F4B;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  padding: 10 10 10 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.main {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.third {
+  flex: 1;
+  display: flex;
+}
+
+section {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.slogan {
+  font-family: 'Comfortaa', cursive;
+  font-size: 2em;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+
+.pizzapic {
+  height: 420px;
+  width: 800px;
+  display: flex;
+  border-radius: 10px;
+  padding: 15 15 15 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.maintitle {
+  color: whitesmoke;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  font-family: 'McLaren', cursive;
+  font-size: 1.6em;
+  letter-spacing: 0.2em;
+
+}
+
+.description {
+  color: whitesmoke;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.4em;
+  display: flex;
+  text-align: center;
+  padding: 10 50 10 50px;
+  box-sizing: border-box;
+  line-height: 1.5em;
+}
+
+.description2 {
+  color: whitesmoke;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
+  display: flex;
+  text-align: center;
+  padding: 60 10 60 10px;
+  box-sizing: border-box;
+  line-height: 1.2em;
+}
+
+.social,
+.subscribe {
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.location {
+  height: 300px;
+  width: 200px;
+  display: flex;
+  padding: 0 15 15 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  height: 20px;
+  justify-content: center;
+  display: flex;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
+  color:  #4494C1;
+  letter-spacing: 0.2em;
+  text-align: center;
+  background-color: #4494C1;
+  align-content: center;
+  
+}
+
+.footerText {
+  font-family: 'Comfortaa', cursive;
+  font-size: 0.8em;
+  color: whitesmoke;
+  letter-spacing: -0.02em;
+  line-break: auto;
+}
+
+.hours {
+  color: whitesmoke;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.4em;
+  display: flex;
+  text-align: center;
+  padding: 10 50 10 50px;
+  box-sizing: border-box;
+  line-height: 1.5em;
+}
